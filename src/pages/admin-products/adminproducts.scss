@@ -1,0 +1,14 @@
+.admin__products_img {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+.img__image img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 2px gray;
+}

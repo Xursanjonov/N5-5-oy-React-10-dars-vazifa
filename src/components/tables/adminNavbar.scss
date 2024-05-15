@@ -1,0 +1,89 @@
+.admin__navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.admin__navbar_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.btnDot {
+    width: 60px;
+    height: 32px;
+    padding: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    border: 0;
+    box-shadow: 0 0 1px gray;
+    border-radius: 5px;
+    background-color: #EEF2F5;
+
+    .dot {
+        width: 5px;
+        height: 5px;
+        border-radius: .5px;
+        background-color: #9DADB9;
+    }
+}
+.btnAdd {
+    width: 80px;
+    margin-right: 1rem;
+    padding: .3rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: lime;
+    background-color: lime;
+}
+
+// table
+.table__name {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin_table__name {
+    width: 950px;
+    margin: .8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.btn__save {
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: .3rem .5rem;
+    border-color: lime;
+    background-color: lime;
+}
+.btn__edit {
+    color: black;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: .3rem .5rem;
+    border-color: orange;
+    background-color: orange;
+}
+.btn__del {
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: .3rem .5rem;
+    border-color: red;
+    background-color: red;
+}
