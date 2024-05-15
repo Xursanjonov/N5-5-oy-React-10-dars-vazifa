@@ -46,7 +46,7 @@ const DataTable = () => {
                             <td>{`${user.id}.${user.stock/10}`}</td>
                             <td style={{color:'lime',fontWeight: 600}}>${user.stock}.0</td>
                             <td style={{ color: 'red', fontWeight: 600 }}>${user.rating}0</td>
-                            <td>{user.phone}</td>
+                            <td>No</td>
                             <td>
                                 <button className='btn__del' onClick={() => handleDelete(user.id)}>Delete</button>
                             </td>
